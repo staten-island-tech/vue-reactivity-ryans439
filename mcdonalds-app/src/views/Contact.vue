@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <h1>Contact Us</h1>
-    <p>Get in touch with Fake McDonald's.</p>
+    <p>Get in touch with McDonald's.</p>
   </div>
 </template>
 
