@@ -1,0 +1,63 @@
+.title-bar {
+  background-color: #ffcc00; /* McDonald's yellow */
+  color: #da291c; /* McDonald's red */
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.welcome-item {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.mcdonalds-food {
+  text-align: center;
+  padding: 20px;
+}
+
+.mcdonalds-food h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navigation a {
+  margin: 0 10px;
+  color: #ffcc00; /* McDonald's yellow */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navigation a.active {
+  color: #4caf50; /* Highlighted green */
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
