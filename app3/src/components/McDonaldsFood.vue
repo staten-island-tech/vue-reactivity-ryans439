@@ -17,8 +17,20 @@
           { name: 'Big Mac' },
           { name: 'Quarter Pounder' },
           { name: 'French Fries' },
-          { name: 'McFlurry' }
-          // Add more menu items here
+          { name: 'McFlurry' },
+          { name: 'Apple Pie' },
+          { name: 'Crispy Chicken Sandwich'},
+          { name: 'McChicken' },
+          { name: 'Filet-O-Fish' },
+          { name: 'Chicken McNuggets' },
+          { name: 'Sausage McMuffin' },
+          { name: 'Egg McMuffin' },
+          { name: 'Hotcakes' },
+          { name: 'Hash Browns' },
+          { name: 'Coca-Cola' },
+          { name: 'Sprite' },
+          { name: 'McRib' },
+          { name: 'Happy Meal' },
         ]
       };
     },
