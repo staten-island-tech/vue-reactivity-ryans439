@@ -3,6 +3,10 @@
     <TitleBar title="Welcome to McDonald's" />
     <WelcomeItem />
     <McDonaldsFood />
+    <div class="buttons">
+      <button class="button" @click="goToCart">Go to Cart</button>
+      <button class="button" @click="goToHome">Home</button>
+    </div>
   </div>
 </template>
 
@@ -16,10 +20,35 @@ export default {
     TitleBar,
     WelcomeItem,
     McDonaldsFood
+  },
+  methods: {
+    goToCart() {
+      this.$router.push('/cart');
+    },
+    goToHome() {
+      this.$router.push('/');
+    }
   }
 };
 </script>
 
 <style scoped>
-/* Scoped styles for HomeView if necessary */
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  margin: 10px;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 150px; /* Set a fixed width for both buttons */
+}
 </style>
