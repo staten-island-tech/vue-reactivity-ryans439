@@ -12,10 +12,10 @@
   
   <style>
   .title-bar {
-    background-color: #ffcc00; /* McDonald's yellow */
-    color: #da291c; /* McDonald's red */
+    background-color: #ffcc00; 
+    color: #da291c; 
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-size: 24px;
   }
   </style>

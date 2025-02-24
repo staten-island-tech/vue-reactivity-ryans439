@@ -66,6 +66,7 @@ export default {
   width: 200px;
   text-align: left;
   vertical-align: top;
+  height: 200px;
 }
 
 .card h3 {

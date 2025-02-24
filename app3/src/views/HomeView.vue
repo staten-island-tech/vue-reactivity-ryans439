@@ -49,6 +49,6 @@ export default {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-  width: 150px; /* Set a fixed width for both buttons */
+  width: 150px; 
 }
 </style>

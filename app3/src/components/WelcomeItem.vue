@@ -1,6 +1,6 @@
 <template>
   <div class="welcome-item">
-    <p>Welcome to McDonald's! Enjoy our delicious food and warm hospitality.</p>
+    <p>Welcome to McDonald's! Enjoy our delicious food. It's our pleasure. </p>
   </div>
 </template>
 
