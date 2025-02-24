@@ -21,26 +21,26 @@
 
 <script>
 import TitleBar from '@/components/TitleBar.vue';
+import { useCart } from '@/cartState.js';
 
 export default {
   components: {
     TitleBar
   },
-  inject: ['cart'],
+  setup() {
+    const { getCartItems, removeItemFromCart } = useCart();
+    return {
+      cartItems: getCartItems(),
+      removeFromCart: removeItemFromCart
+    };
+  },
   computed: {
-    cartItems() {
-      return this.cart.getCartItems();
-    },
     totalPrice() {
       return this.cartItems.reduce((sum, item) => sum + item.price, 0).toFixed(2);
     }
   },
   methods: {
-    removeFromCart(index) {
-      this.cart.removeItemFromCart(index);
-    },
     checkout() {
-      // Implement checkout logic
       alert('Proceeding to checkout...');
     },
     goToHome() {
@@ -49,6 +49,7 @@ export default {
   }
 };
 </script>
+
 
 <style scoped>
 .cart {
@@ -89,7 +90,7 @@ export default {
   text-decoration: none;
   border-radius: 5px;
   margin: 10px;
-  width: 150px; /* Set a fixed width for both buttons */
+  width: 150px; 
 }
 
 .remove-button {
@@ -101,3 +102,4 @@ export default {
   margin-top: 20px;
 }
 </style>
+ 

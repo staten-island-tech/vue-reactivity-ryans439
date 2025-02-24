@@ -13,8 +13,13 @@ export const useCart = () => {
     return cartState.items;
   };
 
+  const removeItemFromCart = (index) => {
+    cartState.items.splice(index, 1);
+  };
+
   return {
     addItemToCart,
-    getCartItems
+    getCartItems,
+    removeItemFromCart
   };
 };
