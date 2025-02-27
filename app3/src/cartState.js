@@ -8,7 +8,7 @@ export const useCart = () => {
   const addItemToCart = (item) => {
     cartState.items.push(item);
   };
-
+                                                                                                                                                        
   const getCartItems = () => {
     return cartState.items;
   };
